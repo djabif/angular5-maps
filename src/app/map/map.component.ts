@@ -9,7 +9,6 @@ import { google } from "google-maps";
 export class MapComponent implements OnInit {
 
   map: any;
-  markers: any;
   color = 'primary';
   mode = 'indeterminate';
   loading = true;
